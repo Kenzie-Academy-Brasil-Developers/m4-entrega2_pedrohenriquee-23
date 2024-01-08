@@ -1,6 +1,7 @@
 import express, { json } from "express";
 import { booksRouter } from "./routes/books.routers";
 import { HandleErrors } from "./errors/handleErrors.middlewares";
+import 'express-async-errors';
 
 export const app = express();
 
